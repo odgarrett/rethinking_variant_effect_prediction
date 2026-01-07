@@ -1,0 +1,21 @@
+LOCUS       pikh1_amplicon    345 bp ds-DNA     linear       14-NOV-2025
+DEFINITION  Illumina amplicon for deep mutational scanning of Pikh1 HMA.
+ACCESSION   None
+VERSION
+SOURCE      Oscar Garrett
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     termini5        1..78
+                     /label="5' buffer"
+     gene            79..312
+                     /label="pikh1 hma"
+     termini3        313..345
+                     /label="3' buffer"
+ORIGIN
+        1 gttccagact acgctctgca ggctagtggt ggaggaggct ctggtggagg cggtagcgga
+       61 ggcggagggt cggctagcgg tttgaagcaa aaaatcgtta tcaaagttgc tatggaaggt
+      121 aataactgta gatctaaagc tatggctttg gttgcttcta ctggtggtgt tgattctgtt
+      181 gctttagttg gtgatttgag ggataaaatc gaagttgttg gttatggtat cgacccaatc
+      241 aagttgattt ctgccttgag aaagaaagtt ggtgacgccg aattattgca agtttctcaa
+      301 gctaagaagg atggatccga acaaaagctt atttctgaag aggac
+//

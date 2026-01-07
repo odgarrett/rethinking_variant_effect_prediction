@@ -1,0 +1,19 @@
+pikh1_amplicon: # Must match the LOCUS name in your Genbank file
+  query_clip5: 5 # Allow 5bp of clipping at the 5' end
+  query_clip3: 5 # Allow 5bp of clipping at the 3' end
+  
+  termini5:
+    filter:
+      mutation_nt_count: 3 # Allow max 3 nucleotide difference in the 5' buffer
+      mutation_op_count: null # Put no limit on number of mutation operations
+
+  gene:
+    filter:
+      mutation_nt_count: 50 # Allow a high number of mutations (it's the library)
+      mutation_op_count: null # Put no limit on number of mutation operations
+    return: [mutations, accuracy] # This is what we want!
+
+  termini3:
+    filter:
+      mutation_nt_count: 3 # Allow max 3 mutations in the 3' buffer
+      mutation_op_count: null # Put no limit on number of mutation operations
